@@ -21,6 +21,7 @@ function Order(props) {
   };
   useEffect(() => {
     _getOrderDetails();
+    // eslint-disable-next-line
   }, []);
 
   return (
